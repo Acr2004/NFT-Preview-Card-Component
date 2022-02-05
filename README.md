@@ -1,5 +1,7 @@
 # NFT-Preview-Card-Component
 
+## Challenge Infos
+
 **Challenge:** Build out this preview card component and get it looking as close to the design as possible.
 
 **Challenge Link:** [Click Here](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
