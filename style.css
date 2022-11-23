@@ -26,3 +26,129 @@ body {
     background-color: var(--very-dark-blue-mainbg);
 }
 
+main {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    background-color: var(--very-dark-blue-cardbg);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#nft {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#eye {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    height: 310px;
+    background-color: rgba(0, 255, 247, 0.45);
+    margin: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+#eye:hover {
+    opacity: 1;
+    transition: 0.6s ease;
+}
+
+#nft::after:hover {
+    content: url(Images/icon-view.svg);
+}
+
+h1 {
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--white);
+    transition: 0.6s ease;
+}
+
+h1:hover {
+    color: var(--cyan);
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+#desc {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: var(--soft-blue);
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#price {
+    font-size: 15px;
+    color: var(--cyan);
+    padding-left: 6px;
+    font-weight: 400;
+}
+
+#time {
+    font-size: 15px;
+    color: var(--soft-blue);
+    padding-left: 6px;
+}
+
+hr {
+    width: 99%;
+    height: 1px;
+    background-color: var(--very-dark-blue-line);
+    margin: 25px auto 15px auto;
+}
+
+#creator {
+    display: flex;
+    align-items: center;
+}
+
+#creator img {
+    width: 35px;
+    border: 1px solid var(--white);
+    border-radius: 100px;
+    margin-right: 18px;
+}
+
+#creator p {
+    font-size: 15px;
+    color: var(--soft-blue);
+    font-weight: 400;
+}
+
+#creator span {
+    color: var(--white);
+    transition: 0.6s ease;
+}
+
+#creator span:hover {
+    color: var(--cyan);
+    cursor: pointer;
+    transition: 0.6s ease;
+}
